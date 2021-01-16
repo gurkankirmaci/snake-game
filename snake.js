@@ -4,6 +4,7 @@ const GRID_SIZE = GRID_HEIGHT * GRID_WIDTH;
 
 const snakeElement= document.querySelector("#snake-grid");
 let position = (GRID_SIZE/2) -(GRID_WIDTH/2);
+let score = JSON.parse(localStorage.getItem('score')) || 0;
 
 
 let createFoodposition = () =>{
@@ -80,7 +81,4 @@ const handleControls = (e) => {
 
 };
 bindEvents();
-
-
-
 

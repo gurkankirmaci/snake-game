@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: tomato;
+    background: rgb(255, 154, 71);
     overflow: hidden;
 }
 .container{
